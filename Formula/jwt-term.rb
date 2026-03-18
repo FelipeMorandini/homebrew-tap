@@ -1,26 +1,26 @@
 class JwtTerm < Formula
   desc "A secure, offline-first CLI for inspecting, validating, and manipulating JWTs"
   homepage "https://github.com/felipemorandini/jwt-term"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.0/jwt-term-aarch64-apple-darwin.tar.gz"
-      sha256 "bd155bf450bb6306d492c120bf67e62248e132c4b678344a976d319d94745302"
+      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.1/jwt-term-aarch64-apple-darwin.tar.gz"
+      sha256 "942a2998af0255a861607b8cd87d8b58eda8b2ba0e3a9d5279ac826183db5ffb"
     else
-      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.0/jwt-term-x86_64-apple-darwin.tar.gz"
-      sha256 "b9fd2e2a377d3c430c0728f0562e5c9a0ec550de0342dea129144e4f268a702e"
+      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.1/jwt-term-x86_64-apple-darwin.tar.gz"
+      sha256 "c6e8c2d14424a4b6a021e3bbd0dd33bf1c03e988f7d8d692bed9c1a7327eacd8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.0/jwt-term-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f8a1c43e2f0efcc45e295448a647a489e583c4cdc36bc3d8b7d078c88d6ea2ab"
+      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.1/jwt-term-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "dd63882924c9899e0c73344fa16236bb34568d482cd904ac2289083a835654c8"
     else
-      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.0/jwt-term-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6681ae76b50accaf341870b8cc5548ccee825d7c022b12b8006da114ce8c8b64"
+      url "https://github.com/felipemorandini/jwt-term/releases/download/v1.1.1/jwt-term-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d97e01804ff5dfd7a8a74839a15570211ad0c11f9f38541de6085ba86af23bfa"
     end
   end
 
