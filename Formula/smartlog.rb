@@ -1,26 +1,26 @@
 class Smartlog < Formula
   desc "A high-performance TUI for log tailing with JSON auto-detection and real-time filtering"
   homepage "https://github.com/felipemorandini/smartlog"
-  version "0.6.3"
+  version "0.6.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.3/smartlog-aarch64-apple-darwin.tar.gz"
-      sha256 "cbd5f603f48e37f45c6bef7882d337f3b305ed0c4348498d4613a2c6e1a86d2e"
+      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.4/smartlog-aarch64-apple-darwin.tar.gz"
+      sha256 "be6859440d1dad83a6ef494d1d53d63b105be7e4586f02c1eaa3e780ae0a0866"
     else
-      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.3/smartlog-x86_64-apple-darwin.tar.gz"
-      sha256 "307f57032f87ffa5bf6f646f0accee8b57e413188f042a2096804a0a279878f1"
+      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.4/smartlog-x86_64-apple-darwin.tar.gz"
+      sha256 "f8c54d336515c085c1cc6126dc09205cdd334baab7cacc8959ee198287e8d888"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.3/smartlog-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7acfc17a82eb4f5903cef69ef891c3b62267575d75a7a920d3f5f1a5dd25fdc1"
+      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.4/smartlog-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "09205304d62a3c3465255eb0552201a4c411656e32fb92ceb886773a52a51fb3"
     else
-      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.3/smartlog-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9e4908d9f50c922864a7ddcb103b60a67795863652d53874f1e31fb720703056"
+      url "https://github.com/felipemorandini/smartlog/releases/download/v0.6.4/smartlog-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "68a0b43f53f1ef85f5bbfbef7d103f0db559a39d7f4c8f9a31fc4f3b21e29a82"
     end
   end
 
